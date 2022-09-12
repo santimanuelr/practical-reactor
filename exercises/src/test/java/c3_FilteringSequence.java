@@ -116,7 +116,6 @@ public class c3_FilteringSequence extends FilteringSequenceBase {
     @Test
     public void golden_middle() {
         Flux<Integer> numbers = number_service()
-                //todo: do your changes here
                 .skip(100).take(100)
                 ;
 
